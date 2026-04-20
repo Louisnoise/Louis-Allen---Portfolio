@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Name — Louis Allen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="container">
+      <a href="index.html" class="nav-logo">Louis Allen</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="credits.html">Credits</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="index.html#about">About</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-detail container">
+      <a href="projects.html" style="font-size:0.85rem; margin-bottom:1.5rem; display:inline-block;">&larr; Back to Projects</a>
+      <h1>Project Name</h1>
+      <div class="project-meta">
+        <span>Unity &middot; C# &middot; 2023</span>
+      </div>
+
+      <div class="content">
+        <p>This is a template for an individual project page. Describe what the project is, why you built it, and what problems it solves. Talk about the technical challenges and your approach.</p>
+
+        <p>You can include as much or as little detail as you like. This page supports images, embedded videos, and any other HTML content.</p>
+
+        <!-- Embed a video if relevant -->
+        <!--
+        <div class="video-wrapper" style="margin: 2rem 0;">
+          <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="Project Demo" allowfullscreen></iframe>
+        </div>
+        -->
+      </div>
+
+      <!-- Project image gallery -->
+      <div class="project-gallery">
+        <div style="aspect-ratio:16/10; background:var(--bg-alt); border-radius:var(--radius); display:flex; align-items:center; justify-content:center; color:var(--text-light);">Screenshot 1</div>
+        <div style="aspect-ratio:16/10; background:var(--bg-alt); border-radius:var(--radius); display:flex; align-items:center; justify-content:center; color:var(--text-light);">Screenshot 2</div>
+        <div style="aspect-ratio:16/10; background:var(--bg-alt); border-radius:var(--radius); display:flex; align-items:center; justify-content:center; color:var(--text-light);">Screenshot 3</div>
+      </div>
+
+      <div class="content">
+        <h2 style="margin: 2rem 0 0.75rem;">Technical Details</h2>
+        <p>Describe the technical implementation here — architecture decisions, tools used, interesting algorithms, performance considerations, etc.</p>
+
+        <h2 style="margin: 2rem 0 0.75rem;">What I Learned</h2>
+        <p>Reflect on what this project taught you and how it influenced your later work.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Louis Allen. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

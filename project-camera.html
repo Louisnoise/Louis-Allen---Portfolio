@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera Angles &amp; Navigation — Louis Allen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="container">
+      <a href="index.html" class="nav-logo">Louis Allen</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="credits.html">Credits</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="index.html#about">About</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-detail container">
+      <a href="projects.html" style="font-size:0.85rem; margin-bottom:1.5rem; display:inline-block;">&larr; Back to Projects</a>
+      <h1>Unity &mdash; Camera Angles &amp; Navigation</h1>
+      <div class="project-meta">
+        <span>Unity &middot; C# &middot; MATLAB &middot; Final Year Project</span>
+      </div>
+
+      <div class="content">
+        <p>A study into the relationship between navigational ability and choice of camera angles within game design, conducted as part of my final year university project. A short navigational game was created in Unity containing three levels, each utilising a different popular camera angle, before being subjected to a professional-quality usability evaluation under strict lab settings.</p>
+      </div>
+
+      <!-- Camera views gallery -->
+      <h2 style="margin: 2rem 0 0.75rem;">Camera Views</h2>
+      <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">3rd Person, Top Down, and 1st Person camera perspectives used in the study.</p>
+      <div class="project-gallery">
+        <img src="https://static.wixstatic.com/media/668846_64b8696f0887433c8b36495a07f52bf3~mv2.png/v1/fill/w_640,h_490,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/thirdperson.png" alt="Third person camera view">
+        <img src="https://static.wixstatic.com/media/668846_8dc5d472c07240018d83d63b640ae028~mv2.png/v1/fill/w_640,h_360,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/topdown.png" alt="Top down camera view">
+        <img src="https://static.wixstatic.com/media/668846_8810e7af47dc4295b0f0c2534a3775b4~mv2.png/v1/fill/w_640,h_474,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/firstperson.png" alt="First person camera view">
+      </div>
+
+      <!-- Maze screenshots -->
+      <h2 style="margin: 2rem 0 0.75rem;">Level Design</h2>
+      <div class="project-gallery">
+        <img src="https://static.wixstatic.com/media/668846_c08abeeef2df4732af99886d2afe9cf5~mv2.png/v1/fill/w_640,h_420,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/maze1.png" alt="Maze level 1">
+        <img src="https://static.wixstatic.com/media/668846_2f047ed112724b208769e8d8730c5fbd~mv2.png/v1/fill/w_640,h_430,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/maze2.png" alt="Maze level 2">
+        <img src="https://static.wixstatic.com/media/668846_8b45c7655ac7411ba54df1340dbcf211~mv2.png/v1/fill/w_640,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/maze3.png" alt="Maze level 3">
+      </div>
+
+      <div class="content">
+        <h2 style="margin: 2rem 0 0.75rem;">Data Visualisation</h2>
+        <p>The game featured a script which recorded the player's position and camera direction throughout their playthrough at set intervals. This data was then used to visualise their path and progression using a custom MATLAB function, which could be further analysed alongside the results from the lab evaluation.</p>
+
+        <img src="https://static.wixstatic.com/media/668846_9958cc79d80243a7ab942936fc885456~mv2.png/v1/fill/w_640,h_630,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/flagdroop.png" alt="MATLAB path visualisation" style="border-radius: var(--radius); margin: 1.5rem 0;">
+
+        <h2 style="margin: 2rem 0 0.75rem;">Links</h2>
+        <ul class="contact-links" style="margin-top: 0.75rem;">
+          <li><a href="https://github.com/Louisnoise/MazeGameProjectGit" target="_blank" rel="noopener">GitHub Repository &rarr;</a></li>
+          <li><a href="https://dbbe89b5-4ff2-4c61-8440-2c44dd12a6e9.filesusr.com/ugd/668846_b9ba358311dd42c9a13410d07955122a.pdf" target="_blank" rel="noopener">Full Usability Report (PDF) &rarr;</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Louis Allen. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

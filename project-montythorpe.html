@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montythorpe's Big Adventure — Louis Allen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="container">
+      <a href="index.html" class="nav-logo">Louis Allen</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="credits.html">Credits</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="index.html#about">About</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-detail container">
+      <a href="projects.html" style="font-size:0.85rem; margin-bottom:1.5rem; display:inline-block;">&larr; Back to Projects</a>
+      <h1>Montythorpe's Big Adventure</h1>
+      <div class="project-meta">
+        <span>Flash / AS3 &middot; 26-Hour Game Jam</span>
+      </div>
+
+      <div class="content">
+        <p>A physics-based adventure game developed in a 26-hour game jam. It follows the trials and tribulations of an anthropomorphic sausage as he sails to trade with new-found lands. The game was developed in Flash using AS3 at the prototyping stage, with the finished product intended for mobile devices.</p>
+
+        <h2 style="margin: 2rem 0 0.75rem;">Gameplay</h2>
+        <p>The player controls Montythorpe's boat and must ensure the safe transportation of cargo across harsh sea conditions by controlling the balance of the boat. Players are rewarded with upgrade options based on how much cargo reaches its destination. As the game progresses, wave intensity and sea creatures create increasing obstruction.</p>
+      </div>
+
+      <!-- Level scenes -->
+      <h2 style="margin: 2rem 0 0.75rem;">Levels</h2>
+      <div class="project-gallery">
+        <div style="text-align:center;">
+          <img src="https://static.wixstatic.com/media/668846_32cdad17ee4f481aa37cae015aa69a96~mv2.png/v1/fill/w_640,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/scenes-01.png" alt="Level 1: America" style="border-radius: var(--radius);">
+          <p style="color: var(--text-light); font-size: 0.85rem; margin-top: 0.5rem;">Level 1: America</p>
+        </div>
+        <div style="text-align:center;">
+          <img src="https://static.wixstatic.com/media/668846_4e987ecee14344b082e20f021c3db921~mv2.png/v1/fill/w_640,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/scenes-02.png" alt="Level 2: Egypt" style="border-radius: var(--radius);">
+          <p style="color: var(--text-light); font-size: 0.85rem; margin-top: 0.5rem;">Level 2: Egypt</p>
+        </div>
+        <div style="text-align:center;">
+          <img src="https://static.wixstatic.com/media/668846_3833403f542d48c09efd2bd3c79a474c~mv2.png/v1/fill/w_640,h_140,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/scenes-03.png" alt="Level 3: China" style="border-radius: var(--radius);">
+          <p style="color: var(--text-light); font-size: 0.85rem; margin-top: 0.5rem;">Level 3: China</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <h2 style="margin: 2rem 0 0.75rem;">Wave System</h2>
+        <p>The waves are code-generated using a node system to appear fluid and dynamic. Each node follows a wave pattern that updates as each level progresses, creating disruption in the previous patterns and producing larger waves.</p>
+
+        <img src="https://static.wixstatic.com/media/668846_1f5627e755c344f7ab9ef9cbf16fb90f~mv2.png/v1/fill/w_640,h_362,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/screenshot3.png" alt="Wave system screenshot" style="border-radius: var(--radius); margin: 1.5rem 0;">
+
+        <h2 style="margin: 2rem 0 0.75rem;">Game Structure</h2>
+        <img src="https://static.wixstatic.com/media/668846_f63602318b1c4ca6b80300c9e88054d4~mv2_d_1360_1760_s_2.jpeg/v1/fill/w_540,h_700,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/gamestructure-new-page.jpeg" alt="Game structure flow diagram" style="border-radius: var(--radius); margin: 1rem 0;">
+
+        <h2 style="margin: 2rem 0 0.75rem;">Controls</h2>
+        <p>Controls utilise tablet gyroscopic functionality, with the player tilting the device clockwise and anti-clockwise to balance the boat.</p>
+        <img src="https://static.wixstatic.com/media/668846_a64d84f4d4c8406089b74596015b7169~mv2.jpg/v1/fill/w_800,h_428,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/untitled-1.jpg" alt="Controls diagram" style="border-radius: var(--radius); margin: 1rem 0;">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Louis Allen. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
